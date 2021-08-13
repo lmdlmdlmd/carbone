@@ -124,16 +124,16 @@ Carbone的幕后运转：
   sudo apt autoremove --purge
 
   # Download LibreOffice debian package. Select the right one (64-bit or 32-bit) for your OS.
-  # Get the latest from http://download.documentfoundation.org/libreoffice/stable
+  # Get the latest from https://download.documentfoundation.org/libreoffice/stable
   # or download the version currently "carbone-tested":
-  wget https://downloadarchive.documentfoundation.org/libreoffice/old/6.4.5.2/deb/x86_64/LibreOffice_6.4.5.2_Linux_x86-64_deb.tar.gz
+  wget https://download.documentfoundation.org/libreoffice/stable/7.1.5/deb/x86_64/LibreOffice_7.1.5_Linux_x86-64_deb.tar.gz
 
   # Install required dependencies on ubuntu server for LibreOffice 6.0+
   sudo apt install libxinerama1 libfontconfig1 libdbus-glib-1-2 libcairo2 libcups2 libglu1-mesa libsm6
 
   # Uncompress package
-  tar -zxvf LibreOffice_6.4.5.2_Linux_x86-64_deb.tar.gz
-  cd LibreOffice_6.4.5.2_Linux_x86-64_deb/DEBS
+  tar -zxvf LibreOffice_7.1.5_Linux_x86-64_deb.tar.gz
+  cd LibreOffice_7.1.5_Linux_x86-64_deb.tar.gz/DEBS
 
   # Install LibreOffice
   sudo dpkg -i *.deb
